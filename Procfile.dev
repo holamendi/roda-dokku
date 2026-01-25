@@ -1,0 +1,2 @@
+web: mise exec -- bundle exec puma -p 3000
+vite: mise exec -- bin/vite dev
