@@ -13,6 +13,8 @@ class App < Roda
   plugin :vite
 
   route do |r|
+    r.public
+
     r.root do
       <<~HTML
         <!DOCTYPE html>
