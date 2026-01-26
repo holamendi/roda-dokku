@@ -49,8 +49,8 @@ class App < Roda
       end
     end
 
-    r.get "resume" do |type|
-      r.json { JSON_RESUME }
+    r.get "resume" do
+      JSON_RESUME
     end
   end
 end
